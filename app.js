@@ -25,7 +25,6 @@ client.on('ready', async () => {
 
             if(formula2Dec == mainValue + 0.02){ //! 0.03
 
-                //TODO: PISO
                 channel.send(`Piso 0.03, valor actual: ${SLP}`) 
                         
                 //! Caida o Subida
